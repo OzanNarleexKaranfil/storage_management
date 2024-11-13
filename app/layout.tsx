@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
-import "./globals.css";
 import { Poppins } from "next/font/google";
+
+import "./globals.css";
+import React from "react";
 
 const poppins = Poppins({
   subsets: ["latin"],
@@ -9,8 +11,8 @@ const poppins = Poppins({
 });
 
 export const metadata: Metadata = {
-  title: "OzanDrive",
-  description: "Dosya depolama uygulamasi",
+  title: "KaranFile",
+  description: "Karanfile - The only storage solution you need.",
 };
 
 export default function RootLayout({
